@@ -20,7 +20,7 @@ class TestCalc(unittest.TestCase):
         result = calc.add2('10.5', 2)
         self.assertEqual(result, 12.00)
 
-    def test_add_float_string(self)
+    def test_add_float_string(self):
         """
         Test that the addition of float and string returns float conatenate with string as string
         """
